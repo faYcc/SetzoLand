@@ -1,0 +1,40 @@
+{
+    "name": "Hacker String BOT",
+    "description": "algo en especifico? claro, elimina tu cuenta JAJAJAJAJJ",
+    "logo": "",
+    "keywords": [
+        "TELETHON",
+        "TS",
+        "Telegram Bot",
+        "GEIS",
+        "faay"
+    ],
+    "website": "",
+    "success_url": "https://t.me/faay2020",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Telegram Token Bot",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Api HASH",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "API ID",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
